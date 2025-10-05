@@ -1,0 +1,48 @@
+{
+  "outfits": [
+    "streetwear outfit",
+    "elegant evening outfit",
+    "business suit",
+    "casual jeans and hoodie",
+    "sport outfit with jacket and leggings",
+    "summer dress",
+    "winter coat with scarf",
+    "minimal monochrome look",
+    "denim jacket with t-shirt",
+    "long trench coat, classic",
+
+    "bikini swimwear (two-piece)",
+    "one-piece swimsuit",
+    "micro bikini swimwear",
+    "sport bikini (athletic swimwear)",
+    "lingerie set (bra and panties)",
+    "lace lingerie set",
+    "silk lingerie set",
+    "bodysuit (second skin)",
+    "sheer robe over lingerie",
+    "implied nude silhouette (artistic, tasteful)"
+  ],
+  "materials": [
+    "leather texture",
+    "denim texture",
+    "silk fabric",
+    "cotton fabric",
+    "wool knit",
+    "satin sheen",
+    "linen fabric",
+    "velvet fabric",
+    "suede texture",
+    "technical softshell",
+
+    "mesh fabric",
+    "lace fabric",
+    "sheer chiffon",
+    "lycra/stretch fabric",
+    "neoprene swim fabric",
+    "ribbed knit",
+    "glossy latex finish",
+    "matte latex finish",
+    "nylon microfiber",
+    "tulle"
+  ]
+}

@@ -1,0 +1,138 @@
+/* =====================================================
+   ANDIO One – Custom Theme for AUTOMATIC1111 Extension
+   Style: Red / White / Anthracite (glossy)
+   ===================================================== */
+
+#andio_root {
+  --andio-red: #e40a2d;
+  --andio-bg: #0d0d0f;
+  --andio-fg: #e8e8e8;
+  --andio-accent: #ffffff22;
+  background: var(--andio-bg);
+  color: var(--andio-fg);
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Headings */
+#andio_root h2,
+#andio_root h3,
+#andio_root .gr-markdown {
+  color: var(--andio-fg);
+  text-shadow: 0 0 6px #000;
+}
+
+/* Buttons */
+#andio_root .gr-button {
+  border-radius: 999px;
+  padding: 10px 16px;
+  border: 1px solid var(--andio-accent);
+  background: linear-gradient(145deg, #18181a, #0a0a0c);
+  color: var(--andio-fg);
+  transition: all 0.2s ease;
+}
+
+#andio_root .gr-button-primary {
+  background: linear-gradient(145deg, var(--andio-red), #9b0015);
+  color: #fff;
+  box-shadow: 0 0 12px #e40a2d33;
+}
+
+#andio_root .gr-button:hover {
+  filter: brightness(1.15);
+}
+
+/* Textboxes, Dropdowns */
+#andio_root .gr-textbox,
+#andio_root .gr-dropdown {
+  background: #161619;
+  color: var(--andio-fg);
+  border-radius: 12px;
+  border: 1px solid #ffffff10;
+}
+
+/* Image & Gallery */
+#andio_root .gr-image {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #ffffff14;
+  background: #0c0c0e;
+}
+
+#andio_root .gr-gallery {
+  border-radius: 12px;
+  border: 1px solid #ffffff11;
+  background: #0c0c0e;
+}
+
+/* Accordion & Advanced Settings */
+#andio_root .gr-accordion {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #ffffff14;
+  background: #101012;
+}
+
+/* Status area */
+#andio_root .andio-status {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border: 1px solid #ffffff22;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #1a1a1d, #0f0f11);
+  font-size: 13px;
+  color: #c8c8c8;
+  text-shadow: 0 0 5px #000;
+}
+
+/* Inputs */
+#andio_root input, #andio_root select, #andio_root textarea {
+  background: #131315;
+  border-radius: 10px;
+  color: #eee;
+  border: 1px solid #333;
+}
+
+/* Focus glow */
+#andio_root input:focus, #andio_root textarea:focus, #andio_root select:focus {
+  outline: none;
+  box-shadow: 0 0 8px #e40a2d55;
+  border-color: #e40a2d77;
+}
+
+/* Custom chips / badges */
+.andio-chip {
+  border-radius: 999px;
+  padding: 6px 10px;
+  border: 1px solid #ffffff33;
+  background: #ffffff0a;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* Scrollbars */
+#andio_root ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+#andio_root ::-webkit-scrollbar-thumb {
+  background: #e40a2d55;
+  border-radius: 6px;
+}
+
+#andio_root ::-webkit-scrollbar-thumb:hover {
+  background: #e40a2d88;
+}
+
+/* ANDIO Logo oben im Editor */
+#andio_root::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+  background: url("./logo.png") center/contain no-repeat; /* <— statt ../logo.png */
+  filter: drop-shadow(0 0 6px #000);
+}
+
