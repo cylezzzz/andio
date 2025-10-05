@@ -12,7 +12,7 @@ __pycache__/
 venv/
 .venv/
 
-# === A1111: große oder volatile Ordner ===
+# === Große oder temporäre Ordner ===
 models/
 embeddings/
 outputs/
@@ -20,22 +20,27 @@ cache/
 tmp/
 log/
 repositories/
-extensions/sd-webui-controlnet/models/
+
+# === Assets (Bilder, Videos, Fonts) ===
+assets/img/
+assets/video/
+assets/fonts/
 
 # === Einzelne große Dateien ===
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.gif
 *.safetensors
 *.ckpt
 *.pt
-*.pth
 *.bin
 *.onnx
+*.zip
+*.rar
 
-# === Session- & Laufzeitdateien ===
-config.json
-ui-config.json
-params.txt
-
-# === Lokale Tools / Skripte (optional) ===
+# === Lokale Skripte ===
 *.ps1
 *.bat
 *.sh
