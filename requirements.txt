@@ -1,0 +1,13 @@
+customtkinter
+pillow
+diffusers
+transformers
+accelerate
+torch
+torchvision
+insightface
+onnxruntime-gpu
+pynvml
+ollama
+requests
+numpy
